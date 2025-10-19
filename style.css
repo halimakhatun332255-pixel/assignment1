@@ -1,6 +1,6 @@
 body{
-    margin: 0 40px;
     font-family: poppins;
+    background-color: white;
 }
 nav{
     display: flex;
@@ -57,4 +57,154 @@ nav div ul li a{
     color: white;
     padding: 12px 42px;
     border-radius: 8px;
+}
+.category{
+    margin-top: 64px;
+}
+.categorie-info1{
+    display: flex;
+    background-color: #fedc1f;
+align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 120px;
+    border-radius: 12px;
+     width: 350px;
+}
+.categorie-info2{
+    display: flex;
+    background-color: #1ffe4f;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 120px;
+    border-radius: 12px;
+     width: 350px;
+}
+.categorie-info3{
+    display: flex;
+    background-color: #fe1fac;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 120px;
+    border-radius: 12px;
+     width: 350px;
+}
+.category-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cat-img{
+    height: 90px;
+    width: 68px;
+}
+.cat-name{
+    color: white;
+}
+header{
+     margin: 0 40px;
+}
+
+/* header section end from here */
+main{
+    background-color: #F4F4F4;
+    padding: 0 40px;
+    margin-top: 48px;
+    
+}
+.shoe-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+main a{
+    text-decoration: none;color: orange;
+}
+.Product-img{
+    height: 120px;
+}
+.card{
+    width: 360px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border-radius:8px;
+    align-content: center;
+    text-align: center;
+}
+.product-info{
+    width: 303px;
+    height: 36px;
+    text-align: center;
+}
+.card-price1{
+      width: 65px;
+      height: 36px;            
+}
+.card-price2{
+    width: 56px;
+    height: 36px;
+}
+.card-price3{
+    width: 62px;
+    height: 36px;
+}
+.buyNow-btn{
+width: 168px;
+height: 52px;
+padding: 20px,14px;
+gap: 10px;
+background-color: black;
+color: white;
+justify-content: center;
+align-items: center;
+border: none;
+border-radius: 4px;
+}
+.shoe-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+footer{
+    background-color: #FFF2F1;
+    padding:  0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+}
+.foInfo{
+    font-size: 24px;
+}
+.stay{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.subsription{
+    background-color: #eaeaea;
+    border: none;
+    width: 320px;
+    text-indent: 16px;
+    height: 48px;
+
+}
+.send{
+    height: 48px;
+    width: 180px;
+    background-color: #fe1fac;
+    border: none;
+    color: #ffffff;
+}
+.inp{
+    display: flex;
+    align-items: center;
+
+    
 }
